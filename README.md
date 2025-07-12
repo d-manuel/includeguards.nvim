@@ -2,6 +2,7 @@ This is a simple plugin that adds includeguards to a .h/.hpp file in C/C++ proje
 
 ## Installation
 ### Lazy.nvim
+```lua
 {
 	"includeguards.nvim",
 	dev    = true,
@@ -10,3 +11,4 @@ This is a simple plugin that adds includeguards to a .h/.hpp file in C/C++ proje
 		vim.keymap.set("n", "<leader>hg", function() require("includeguards").addIncludeguards() end)
 	end
 }
+```
